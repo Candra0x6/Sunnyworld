@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Tomato
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ apple\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=quantity
+comment1.target=Tomato(int)
+comment2.params=
+comment2.target=int\ getTomatoQuantity()
+comment3.params=
+comment3.target=void\ useItem()
+comment3.text=\r\n\ \ \ public\ void\ act()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ if(\!isCollected)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ //\ Cek\ apakah\ player\ menyentuh\ tomat\r\n\ \ \ \ \ \ \ \ \ \ \ \ Character\ player\ \=\ (Character)getOneIntersectingObject(Character.class);\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(player\ \!\=\ null)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ Tomat\ terkoleksi\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ isCollected\ \=\ true;\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //\ Anda\ bisa\ menambahkan\ efek\ suara\ atau\ animasi\ di\ sini\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ getWorld().removeObject(this);\r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ }\r\n
+numComments=4
